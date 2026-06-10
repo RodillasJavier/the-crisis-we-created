@@ -65,14 +65,14 @@ The United States was invested in using Honduras, rather than investing in it. T
       text: '"crime and social disorder that, in general, stemmed from incoming waves of US deportees"',
       attribution: '— Cuéllar, in Kline and Wade, Latin American Politics and Development',
     },
-    body: `Mass deportations began under Clinton in the mid-1990s. IIRIRA — the Illegal Immigration Reform and Immigrant Responsibility Act, signed September 30, 1996 — created the legislative architecture for mandatory, large-scale removal.
+    body: `Mass deportations began under Clinton with the IIRIRA, the Illegal Immigration Reform and Immigrant Responsibility Act signed in 1996. This created the legislative architecture for mandatory, large-scale removal. The US sent people back into a country with no judicial system, no social services, and no institutional capacity to receive them.¹
 
-Gang infrastructure imported from Los Angeles took root in a state the US had spent decades hollowing out. The MS-13 and Barrio 18 affiliates that came to define Honduran urban violence were not indigenous formations. They were exported from the United States into a country with no institutional capacity to absorb or counter them.
+  The crime and social disorder that followed stemmed in large part from those incoming waves of deportees, landing in a state the US had spent decades hollowing out. The security crisis that the US now cites as a reason to close its borders was in large part a product of its own immigration policy.²
 
-Deportations peaked at over 40,000 in a single fiscal year. The chart above is not the history of Honduran criminality. It is the history of a US policy decision made in 1996.`,
+  Deportations peaked at over 40,000 in a single fiscal year. That chart is not the history of Honduran criminality. It is the history of a decision the United States made in 1996.`,
     footnotes: [
-      'DHS Yearbook of Immigration Statistics, Table 42 (2022 edition).',
-      'Cuéllar. In Kline and Wade, Latin American Politics and Development.',
+      'U.S. Department of Homeland Security, Yearbook of Immigration Statistics, annual, https://ohss.dhs.gov/topics/immigration/yearbook.',
+      'Cuéllar, 461.',
     ],
   },
   6: {
