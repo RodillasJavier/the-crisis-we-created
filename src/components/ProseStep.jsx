@@ -4,14 +4,14 @@ const STEPS_CONTENT = {
   1: {
     label: '01 / 07',
     heading: 'The Cold War Laboratory',
-    body: `Between 1980 and 1992, Honduras received $1.6 billion in US military and economic assistance.¹ Rather than building democratic institutions, that money built the Soto Cano Airbase, trained Battalion 316, and empowered a military that exceeded civilian authority.
+    body: `Between 1980 and 1992, Honduras received $1.6 billion in US military and economic assistance.¹ That money did not go toward building schools or hospitals or democratic institutions. It went toward the Soto Cano Airbase, toward training Battalion 3-16, and toward propping up a military that answered to no civilian authority.
 
-By 1985, Honduras was the eighth-leading recipient of US military and economic aid in the world.² The returns on that investment were measured in disappeared persons: 124 permanent disappearances and 133 assassinations documented by CODEH between 1980 and 1984 alone.
+By 1985, Honduras was the eighth-leading recipient of US military and economic aid in the world.² However, all Hondurans got in return was 124 documented disappearances and 133 assassinations between 1980 and 1984 alone, carried out by the very forces that US dollars had trained and equipped.
 
-The United States never cared about Honduras. The country served as a launch pad for proxy wars in El Salvador and Nicaragua, its military built up and armed in service of a regional agenda. Hondurans were forced to bear the costs of that buildup, yet they had nothing to gain from it.`,
+The United States was invested in using Honduras, rather than investing in it. The country was a staging ground for proxy wars in El Salvador and Nicaragua, its military built up in service of a regional agenda that had nothing to do with the Honduran people. They paid the costs of that buildup. They saw none of the benefits.`,
     footnotes: [
-      'Cuéllar, Mireille Alvarez. In Kline, Harvey F., and Christine J. Wade, eds. Latin American Politics and Development. 10th ed. Routledge, 2023.',
-      'Kruckewitt, Joan. "US Policy and Human Rights in Honduras." In Menjívar, Cecilia, and Néstor Rodriguez, eds. When States Kill. University of Texas Press, 2005. Table 7.1.',
+      'Jorge E. Cuéllar, "Honduras: Inequality and Social Crisis," in Latin American Politics and Development, edited by Harvey F. Kline and Christine J. Wade, 10th ed. (New York: Routledge, 2023), 459–460.',
+      'Joan Kruckewitt, "US Policy and Human Rights in Honduras," in When States Kill: Latin America, the U.S., and Technologies of Terror, edited by Cecilia Menjívar and Néstor Rodriguez (Austin: University of Texas Press, 2005), 174, 184–185.',
     ],
   },
   2: {
