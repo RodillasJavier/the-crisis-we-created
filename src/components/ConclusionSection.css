@@ -1,0 +1,237 @@
+.conclusion-section {
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border);
+  padding: 6rem 2rem;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conclusion-inner {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.conclusion-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ── Thesis reveal ── */
+.thesis-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.thesis-line {
+  font-family: var(--display);
+  font-size: clamp(1.2rem, 2.4vw, 1.85rem);
+  color: var(--text-primary);
+  font-weight: 700;
+  line-height: 1.35;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.thesis-line.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Take Action ── */
+.footer-action {
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 3rem;
+  row-gap: 0;
+}
+
+.footer-action h3 {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  grid-column: 1 / -1;
+}
+
+.about-note {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  grid-column: 1;
+  grid-row: 2;
+  align-self: start;
+}
+
+.cta-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  grid-column: 2;
+  grid-row: 2 / 4;
+  align-self: start;
+  min-width: 200px;
+}
+
+.cta-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: border-color 200ms ease, color 200ms ease;
+}
+
+.cta-link:hover {
+  border-color: var(--accent-alt);
+  color: var(--accent-alt);
+}
+
+.project-credit {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-secondary);
+  opacity: 0.6;
+  grid-column: 1;
+  grid-row: 3;
+  align-self: end;
+  padding-top: 1rem;
+}
+
+/* ── Sources grid ── */
+.footer-sources {
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.footer-sources > h3 {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.sources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.source-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.source-group-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid;
+}
+
+.source-group ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Scholarship — serif, warm accent border */
+.source-group--scholarship .source-group-label {
+  color: var(--accent-alt);
+  border-color: var(--accent-alt);
+}
+
+.source-group--scholarship li {
+  font-family: var(--serif);
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--accent-alt);
+}
+
+/* Data — monospace, annotation blue */
+.source-group--data .source-group-label {
+  color: var(--annotation);
+  border-color: var(--annotation);
+}
+
+.source-group--data li {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--annotation);
+}
+
+/* Reports — muted, secondary border */
+.source-group--reports .source-group-label {
+  color: var(--text-secondary);
+  border-color: var(--border);
+}
+
+.source-group--reports li {
+  font-family: var(--serif);
+  font-size: 12px;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--border);
+}
+
+@media (max-width: 767px) {
+  .thesis-line {
+    font-size: 1.15rem;
+  }
+
+  .footer-action {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .footer-action h3,
+  .about-note,
+  .cta-links,
+  .project-credit {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .cta-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: unset;
+  }
+
+  .sources-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}

@@ -85,6 +85,14 @@ export const annotations = {
     charts: ['tpsHolders'],
   },
 
+  tpsPeak: {
+    year: 2006,
+    label: 'Peak: 81,685',
+    sublabel: 'Dec. 2006',
+    color: 'var(--accent-alt)',
+    charts: ['tpsHolders'],
+  },
+
   tpsTerminated: {
     year: 2025,
     label: 'TPS terminated',
@@ -103,6 +111,6 @@ export const stepAnnotations = {
   4: ['coup2009', 'homicidePeak'],                                // 2009 Coup
   5: ['iirira', 'deportationPeak', 'title42'],                    // Deportations
   6: ['coup2009', 'unaccompaniedMinors', 'title42'],              // Migration
-  7: ['tpsDesignated', 'tpsTerminated'],                          // TPS
+  7: ['tpsDesignated', 'tpsPeak', 'tpsTerminated'],                // TPS
   8: [],                                                          // Conclusion
 };
