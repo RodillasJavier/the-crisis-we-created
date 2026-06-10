@@ -24,6 +24,13 @@
   letter-spacing: 0.1em;
 }
 
+/* ── Header: label + thesis grouped tightly ── */
+.conclusion-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
 /* ── Thesis reveal ── */
 .thesis-block {
   display: flex;

@@ -93,8 +93,10 @@ export default function ConclusionSection() {
   return (
     <section className="conclusion-section" aria-labelledby="conclusion-heading">
       <div className="conclusion-inner">
-        <span className="conclusion-label">Conclusion</span>
-        <ThesisReveal />
+        <div className="conclusion-header">
+          <span className="conclusion-label">Conclusion</span>
+          <ThesisReveal />
+        </div>
 
         {/* Take Action — above sources */}
         <div className="footer-action" id="conclusion-heading">
