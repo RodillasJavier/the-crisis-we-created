@@ -92,14 +92,14 @@ The United States was invested in using Honduras, rather than investing in it. T
   7: {
     label: '07 / 07',
     heading: 'TPS and the Present',
-    body: `As of March 2025, 51,225 Hondurans remained in the United States under Temporary Protected Status¹ — a population that peaked at over 81,000 in 2006 and had been continuously renewed for 25 years because the conditions that made Honduras unsafe never improved. TPS was never a permanent solution. It was an acknowledgment that the United States could not, in good conscience, send people back to what it had helped create.
+    body: `As of March 2025, 51,225 Hondurans were living in the United States under Temporary Protected Status, a number that had peaked at over 81,000 and been continuously renewed for 25 years.¹ Not because of bureaucratic inertia, but rather because the conditions that made Honduras unsafe never actually improved.
 
-In 2025, the Trump administration terminated TPS for Honduras, declaring conditions safe for return. The Federal Register announcement cited "significant improvements in Honduras's security and economic conditions." The data tell a different story: Honduras's homicide rate of 31.4 per 100,000 remains over six times the global average of 5.2,² deportations continue, and the institutional conditions that produced the crisis — narco-capture of the state, impunity, hollowed public services — remain structurally intact.
+  In July 2025, the Trump administration terminated TPS for Honduras, declaring that the conditions in Honduras were safe for return. The Federal Register cited significant improvements in Honduras's security and economic conditions. Honduras's homicide rate sits at 31.4 per 100,000, more than six times the global average of 5.2.² The narco-capture of the state, the impunity, the hollowed public services— none of that is gone. The declaration that it is safe to return is not based on the data. It is a policy choice, the same kind of policy choice that has defined US involvement in Honduras for fifty years.
 
-The same government whose Cold War policies built Battalion 316, whose deportation policies exported gang infrastructure, and whose diplomats endorsed the 2009 coup, is now telling the people produced by those policies that it is safe to go home.`,
+  The same government whose Cold War policies built Battalion 3-16, whose deportation policies exported gang infrastructure back into the country, and whose diplomats endorsed the 2009 coup, is now telling the people produced by those policies that it is safe to go home.`,
     footnotes: [
-      'CRS Report RS20844. USCIS TPS designated country page. Legal status as of June 2026: in limbo following 9th Circuit stay (Feb. 9, 2026). Penn Wharton Budget Model (Nov. 19, 2025): 51,225 Honduras TPS holders as of Mar. 31, 2025; peak 81,685 (Dec. 2006).',
-      'Federal Register 90:30089 (July 8, 2025). Honduras homicide rate of 31.4 per 100,000: UNODC Homicide Statistics, 2023. Global average of 5.2 per 100,000: UNDP, UNODC and OHCHR, Global Progress Report on Sustainable Development Goal 16: Latin America and the Caribbean, Regional Snapshot Series No. 1 (2026), p. 6.'
+      'Penn Wharton Budget Model, "550,000 Workers Lose Status by End of 2025," November 19, 2025, https://budgetmodel.wharton.upenn.edu; CRS Report RS20844; USCIS TPS designated country page. Legal status as of June 2026: in limbo following 9th Circuit stay (Feb. 9, 2026).',
+      'Federal Register 90:30089 (July 8, 2025). Honduras homicide rate: UNODC, "Homicide Statistics," 2023, https://data.unodc.org/datareport/hom-victim. Global average: UNDP, UNODC, and OHCHR, Global Progress Report on Sustainable Development Goal 16: Latin America and the Caribbean, Regional Snapshot Series No. 1 (New York: UNDP, 2026), 6.',
     ],
   },
 };
