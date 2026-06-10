@@ -10,12 +10,12 @@
 }
 
 .sticky-chart-inner {
-  animation: chartFadeIn 400ms ease forwards;
+  animation: chartFadeIn 180ms ease-out forwards;
 }
 
 @keyframes chartFadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .sticky-chart-label {

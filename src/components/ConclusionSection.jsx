@@ -120,10 +120,6 @@ export default function ConclusionSection() {
               </a>
             ))}
           </div>
-          <p className="project-credit">
-            Final project, LACS 1: Introduction to Latin America and the Caribbean.
-            Dartmouth College, Spring 2026.
-          </p>
         </div>
 
         {/* Sources — below action, grouped by category */}
@@ -144,6 +140,16 @@ export default function ConclusionSection() {
               );
             })}
           </div>
+        </div>
+
+        {/* Acknowledgment */}
+        <div className="footer-acknowledgment">
+          <h3>Acknowledgment</h3>
+          <p>
+            This project was made in part for Introduction to Latin America and the Caribbean
+            (LACS 1) under the guidance and with the help of Professor Jorge E. Cuéllar.
+            Dartmouth College, Spring 2026.
+          </p>
         </div>
       </div>
     </section>

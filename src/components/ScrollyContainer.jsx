@@ -32,23 +32,26 @@ function StepNav({ currentStep, onPrev, onNext, visible }) {
   );
 }
 
-export default function ScrollyContainer() {
-  const [currentStep, setCurrentStep] = useState(1);
+export default function ScrollyContainer({ currentStep, onStepChange, goToStep }) {
   const [navVisible, setNavVisible] = useState(false);
   const containerRef = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => setNavVisible(entry.isIntersecting),
-      { threshold: 0 }
-    );
-    if (containerRef.current) observer.observe(containerRef.current);
-    return () => observer.disconnect();
+    // Show nav only once the user has scrolled at least 80% through the hero
+    // (one viewport height). Threshold: 0 would fire on even 1px of intersection
+    // which happens before the hero is actually out of view.
+    const check = () => {
+      if (!containerRef.current) return;
+      const { top, bottom } = containerRef.current.getBoundingClientRect();
+      // Visible if the scrolly section has entered by at least 10% of its height
+      const inView = top < window.innerHeight * 0.9 && bottom > 0;
+      // But hide again once entirely below viewport (shouldn't happen) or above
+      setNavVisible(inView && window.scrollY > window.innerHeight * 0.8);
+    };
+    check();
+    window.addEventListener('scroll', check, { passive: true });
+    return () => window.removeEventListener('scroll', check);
   }, []);
-
-  const goToStep = (n) => {
-    document.getElementById(`step-${n}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  };
 
   return (
     <section className="scrolly-container" id="scrolly" ref={containerRef} aria-label="Interactive data sections">
@@ -57,7 +60,7 @@ export default function ScrollyContainer() {
       </div>
 
       <div className="scrolly-prose">
-        <Scrollama onStepEnter={({ data }) => setCurrentStep(data)} offset={0.5}>
+        <Scrollama onStepEnter={({ data }) => onStepChange(data)} offset={0.5}>
           {[1, 2, 3, 4, 5, 6, 7].map((n) => (
             <Step data={n} key={n}>
               <div id={`step-${n}`}>

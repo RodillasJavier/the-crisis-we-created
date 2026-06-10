@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useCountUp } from '../hooks/useCountUp.js';
 import './HeroSection.css';
 
-export default function HeroSection() {
+export default function HeroSection({ onBegin }) {
   const { value, isComplete } = useCountUp(213686, 1800);
   const [questionsVisible, setQuestionsVisible] = useState(false);
 
@@ -47,9 +47,7 @@ export default function HeroSection() {
       <button
         className="scroll-arrow"
         aria-label="Scroll to begin"
-        onClick={() =>
-          document.getElementById('scrolly')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        }
+        onClick={onBegin}
       >
         ↓
       </button>
