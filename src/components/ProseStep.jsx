@@ -17,14 +17,14 @@ The United States was invested in using Honduras, rather than investing in it. T
   2: {
     label: '02 / 07',
     heading: 'The Narco Transition',
-    body: `When the Cold War ended, the US rapidly withdrew aid — leaving cohorts of trained officers with specialized skills in a wholly corrupt institution now primed to serve the drug trade. The dip in the aid line is not peace. It is the moment a US-built military apparatus converted its skills to narco-trafficking.
+    body: `When the Contra War ended around 1990, the US pulled its aid and moved on. What it left behind was a military that had spent a decade being rewarded for anti-communist loyalty, now suddenly cut off, sitting inside a corrupt institution with nowhere to direct its skills except the drug trade.¹
 
-The homicide rate, nearly flat through the 1980s, begins climbing in the 1990s as the institutional structures built with US assistance were repurposed. The officers trained in counterinsurgency became the infrastructure of organized crime.
+  The homicide rate was nearly flat through the 1980s and starts climbing in the 1990s. This isn't a coincidence; the officers who had been trained in counterinsurgency and intelligence gathering were still around even after the aid ended. They converted. The infrastructure the US built to fight communism became the infrastructure of organized crime.²
 
-The relationship between US withdrawal and rising violence is not coincidental. It is causal.`,
+  The dip in the aid chart is not peace. It is the moment the US stopped paying attention to what it had built.`,
     footnotes: [
-      'Cuéllar. In Kline and Wade, Latin American Politics and Development. Aid data: USAID Foreign Aid Explorer, constant 2021 USD.',
-      'Frank, Dana. The Long Honduran Night: Resistance, Terror, and the United States in the Aftermath of the Coup. Haymarket Books, 2018.',
+      'Cuéllar, 460.',
+      'Dana Frank, The Long Honduran Night: Resistance, Terror, and the United States in the Aftermath of the Coup (Chicago: Haymarket Books, 2018), chap. 1.',
     ],
   },
   3: {
