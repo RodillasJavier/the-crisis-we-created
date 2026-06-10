@@ -78,17 +78,15 @@ The United States was invested in using Honduras, rather than investing in it. T
   6: {
     label: '06 / 07',
     heading: 'Migration as Measurable Consequence',
-    body: `This is not a spontaneous crisis. Every surge in this chart has a dateable US policy decision behind it.
+    body: `This is not a spontaneous crisis. Every surge in this chart has a dateable cause behind it.
 
-The post-2009 climb follows directly from the coup the US endorsed. The 2014 spike is children arriving alone — fleeing gang violence in cities where deportee-imported infrastructure had taken root in a state the US had spent decades weakening. The 2019 and 2023 surges reflect the cumulative weight of fifty years of decisions.
+  The post-2009 climb follows directly from the coup the US endorsed and the security collapse that came with it. The 2014 spike is tens of thousands of unaccompanied children arriving at the border, fleeing gang violence in cities the post-coup governments had lost control of. The 2019 surge follows the reelection of Hernández and the political violence that accompanied it. By 2023, after two hurricanes, a pandemic, and 75 percent poverty, the number had climbed past 200,000 in a single year.¹
 
-The pattern is not correlation. The 2009 coup is a natural experiment: encounters were declining in 2008–2009, then reversed. The inflection point is dateable to the month.
-
-Two methodological caveats, stated plainly: the series shifts from USBP apprehensions only to total encounters in 2012, slightly raising the baseline; and post-2020 figures include Title 42 expulsions, making year-over-year comparisons unreliable across that threshold. Neither discontinuity affects the central argument — the sustained upward trajectory begins in 2009 and is visible under any consistent measure.
-
-What the United States calls a border crisis is the return of its own foreign policy.`,
+  What the United States calls a border crisis is in actuality a consequence of its own foreign policy.²`,
     footnotes: [
-      'CBP Southwest Border Encounters, FY2023. DHS Yearbook of Immigration Statistics.',
+      'CBP, "CBP Southwest Border Encounters"; DHS, Yearbook of Immigration Statistics.',
+      'Cuéllar, 470.',
+      'Note on methodology: the data series shifts from Border Patrol apprehensions only to total encounters in 2012, slightly raising the baseline, and post-2020 figures include Title 42 expulsions, making year-over-year comparisons unreliable across that threshold. Neither discontinuity affects the central argument — the sustained upward trajectory begins in 2009 and is visible under any consistent measure.',
     ],
   },
   7: {
