@@ -30,14 +30,14 @@ The United States was invested in using Honduras, rather than investing in it. T
   3: {
     label: '03 / 07',
     heading: 'Hurricane Mitch and Structural Vulnerability',
-    body: `Hurricane Mitch killed approximately 8,000 people, displaced 1.5 million, and caused $4 billion in damage. It did not strike a resilient country.
+    body: `In October 1998, Hurricane Mitch displaced 1.5 million people, killed approximately 8,000, and caused roughly $4 billion in damages.¹ A disaster of this scale would have been devastating for any country, and for a country like Honduras, it was particularly so. 
 
-Honduras had already been restructured by IMF and World Bank structural adjustment programs — the paquetazo — that stripped public services in the name of debt reduction. Healthcare, housing, agricultural support: each had been dismantled as a condition of foreign loans controlled by institutions where the United States held veto power.
+  The nation had already been restructured by IMF and World Bank structural adjustment programs (what Hondurans called the paquetazo), that stripped public services in the name of reducing debt. The healthcare system, housing infrastructure and agricultural support networks were all dismantled as conditions of foreign loans from institutions where the United States held effective veto power.²
 
-Recovery aid came with new conditions. The cycle of dependency deepened. The state that emerged from Mitch was more exposed, more indebted, and more beholden to external creditors than the one that entered it.`,
+  Although Hurricane Mitch was a natural event, the disaster that followed was not. Mitch happened upon a country that had already been struggling, and the recovery aid that came in it's wake brought a new set of conditions that would go on to only deepen the same cycle of dependency that made the devastation so severe in the first place.`,
     footnotes: [
-      'Cuéllar. In Kline and Wade, Latin American Politics and Development. Mitch figures: 8,000 dead; $4B damage; 1.5M displaced.',
-      'León, Andrés. The Coup and the Palm Trees: Agrarian Conflict and Political Power in Honduras. University of Georgia Press, 2023.',
+      'Cuéllar, 460.',
+      'Andrés León Araya, The Coup and the Palm Trees: Agrarian Conflict and Political Power in Honduras (Athens: University of Georgia Press, 2023), 80–82.',
     ],
   },
   4: {
@@ -47,14 +47,14 @@ Recovery aid came with new conditions. The cycle of dependency deepened. The sta
       text: '"JOH enjoyed unyielding support and funding from the United States, the resources used to control and silence Honduran activists."',
       attribution: '— Cuéllar, in Kline and Wade, Latin American Politics and Development',
     },
-    body: `On June 28, 2009, President Manuel Zelaya was removed at gunpoint. Homicides jumped from 64 to 83 per 100,000 within three years.¹
+    body: `On June 28, 2009, President Manuel Zelaya was ousted by the Honduran military, and within three years, homicides jumped from 64 to 83 per 100,000 people.¹
 
-The Obama administration and Clinton State Department refused to formally call it a coup — a deliberate legal maneuver under the Leahy Amendment to keep US military and security aid flowing. The word "coup" would have automatically triggered a freeze. The decision not to use it was a policy choice with consequences measured in lives.
+  The Obama administration and Clinton State Department never formally called it a coup. This wasn't an oversight, Calling it a coup would have automatically triggered a freeze on US military and security aid under the Leahy Amendment. The decision not to use the word was a policy choice, and the consequences of that choice were measured in lives.²
 
-What followed was not a democratic transition. It was the installation of a security state whose presidents — Lobo, Hernández — governed through paramilitaries and narco-alliances with overt US backing.`,
+  What came after was not a democratic transition. Lobo and then Hernández governed through paramilitaries and narco-alliances, with consistent US backing. The political space that had supported labor unions, Indigenous movements, and a nascent LGBTQ movement was effectively gone.`,
     footnotes: [
-      'Cuéllar, p.462. In Kline and Wade, Latin American Politics and Development. UNODC homicide data: 2009=64.5, 2011=83.2/100k.',
-      'Frank, Dana. The Long Honduran Night: Resistance, Terror, and the United States in the Aftermath of the Coup. Haymarket Books, 2018.',
+      'Cuéllar, 462.',
+      'Frank, The Long Honduran Night, chap. 1.',
     ],
   },
   5: {
