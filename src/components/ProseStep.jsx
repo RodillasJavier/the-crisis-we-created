@@ -51,10 +51,11 @@ The United States was invested in using Honduras, rather than investing in it. T
 
   The Obama administration and Clinton State Department never formally called it a coup. This wasn't an oversight, Calling it a coup would have automatically triggered a freeze on US military and security aid under the Leahy Amendment. The decision not to use the word was a policy choice, and the consequences of that choice were measured in lives.²
 
-  What came after was not a democratic transition. Lobo and then Hernández governed through paramilitaries and narco-alliances, with consistent US backing. The political space that had supported labor unions, Indigenous movements, and a nascent LGBTQ movement was effectively gone.`,
+  What came after was not a democratic transition. Lobo and then Hernández governed through paramilitaries and narco-alliances, with consistent US backing. The political space that had supported labor unions, Indigenous movements, and a nascent LGBTQ movement was effectively gone.³`,
     footnotes: [
       'Cuéllar, 462.',
       'Frank, The Long Honduran Night, chap. 1.',
+      'Cuéllar, 462–463; Frank, The Long Honduran Night, chap. 2.',
     ],
   },
   5: {
